@@ -48,8 +48,6 @@ class NewVisitorTest(LiveServerTestCase):
         self.wait_rows_in_list_table('1: Buy peacock feathers')
         self.wait_rows_in_list_table('2: Make peacock feather bait')
 
-        self.fail('Stop testing!')
-
     def test_multiple_users_can_start_lists_at_different_urls(self):
         self.browser.get(self.live_server_url)
         inputbox = self.browser.find_element_by_id('id_new_item')

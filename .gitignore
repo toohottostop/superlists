@@ -3,3 +3,6 @@ geckodriver.log
 __pycache__
 *.pyc
 superlists/.env
+.env
+comm.txt
+.idea/
